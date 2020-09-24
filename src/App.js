@@ -10,10 +10,9 @@ export default () => {
   return (
     <div>
       < GlobalStyle />
-      < Header />
-      < MainContent />
-      < Footer />
-
+        < Header />
+        < MainContent />
+        < Footer />
 
     </div>
   );

@@ -1,41 +1,53 @@
 import styled from 'styled-components';
 
-export const Section = styled.div`
+export const Main = styled.div`
 
+  /* background-color: beige; */
+  height: 700px;
+  margin-left: 60px;
+  margin-top: 60px;
 
+.main--content {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
 
-
-  /* .name {
-  font-size: 50px;
-  font-weight: bold;
-  padding-top: 5px;
-  margin-bottom: 5px;
-  }
-
-  .knowledges {
+.title--content {
   text-transform: uppercase;
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 60px;
-  }
+  font-size: 36px;
+  margin-bottom: 30px;
+}
 
-  .knowledges ul li{
+.list--content ul li{
+  cursor: pointer;
+  font-size: 28px;
   display: inline-block;
-  margin-right: 15px;
-  }
+  margin-right: 60px;
+  margin-top: 30px;
+}
 
-  .knowledges ul li:hover {
-    color: yellow;
-  } 
+.list--content ul li:hover {
+  color: #07172d;
+  font-weight: bold;
+}
 
-  a {
-    text-decoration: none;
-    padding: 6px;
-    background-color: yellow;
-    border-radius: 4px;
-    font-size: 22px;
-  } */
+.portfolio--content {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #c3a799;
+  border-radius: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.portfolio--content a {
+  color: black;
+}
+
 
 `;
 

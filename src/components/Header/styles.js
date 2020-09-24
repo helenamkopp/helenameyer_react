@@ -14,7 +14,7 @@ export const Header = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  background: #e57964;
+  background: #c3a799;
  
 `
 export const HeaderLogo = styled.div`
@@ -43,7 +43,8 @@ a.linkedin {
 }
 
 a:hover {
-  background-color:#f0b2a6;
+  background-color:#07172d;
+  color: white;
   border-radius: 10px;
 }
 

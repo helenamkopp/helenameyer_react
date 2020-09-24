@@ -17,6 +17,7 @@ export default () => {
           <a className="about" href="/">Sobre</a>
           <a className="portfolio" href="/">Portfólio</a>
           <a className="artigos" href="/">Artigos</a>
+          <a className="artigos" href="/">Contato</a>
           <a className="linkedin" href="/">
             <img src={Linkedin} alt="Linkedin"/>
           </a>

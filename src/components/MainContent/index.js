@@ -1,30 +1,35 @@
 import React from 'react';
-import { Section } from './styles';
+import { Main } from './styles';
+import Arrow from '../../assets/arrow.svg';
 
 export default () => {
   return (
-    <Section>
-      <div className="content">
-        <div className="presentation">
-          <div className="name"> HELENA MEYER </div>
-          <div className="name"> DESENVOLVEDORA FRONTEND </div>
+
+    <Main >
+      <div className="main--content">
+        <div className="title--content">
+          <p>Helena Meyer</p>
+          <p>Desenvolvedora Frontend</p>
         </div>
 
-        <div className="knowledges">
+        <div className="list--content">
           <ul>
             <li>React</li>
             <li>React Native</li>
             <li>Javascript</li>
             <li>API rest</li>
-            <li>Bootstrap</li>
-            <li>Styled-Components</li>
-            <li>HTML 5</li>
             <li>CSS 3</li>
-            <li>Web developer</li>
+            <li>Bootstrap</li>
+            <li>HTML 5</li>
+            <li>Web Developer</li>
           </ul>
         </div>
-        <a href="/">Veja meu portfólio de projetos</a>
+
+        <div className="portfolio--content">
+          <a href="/">Acessar portfólio</a>
+        </div>
       </div>
-    </Section>
+    </ Main>
+
   )
 }
