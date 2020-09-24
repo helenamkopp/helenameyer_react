@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const Header = styled.div`
-  position: fixed;
+  /* position: fixed;
   z-index: 999;
   top: 0;
   left: 0;
@@ -16,12 +16,12 @@ export const Header = styled.div`
   transition: all ease 0.3s;
 
   .black {
-    background-color: #141414;
+    background-color: #141414; */
   }
 `;
 
 export const HeaderLogo = styled.div`
-  text-transform: uppercase;
+  /* text-transform: uppercase;
   font-size: 18px;
   
   a {
@@ -32,11 +32,11 @@ export const HeaderLogo = styled.div`
   h1 {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 35px;
-  }
+  } */
 `;
 
 export const HeaderLinks = styled.div`
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif;
   font-size: 25px;
 
   a {
@@ -60,14 +60,14 @@ export const HeaderLinks = styled.div`
   }
 
   a.linkedin {
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
   img {
     height: 30px;
     width: 30px;
     border-radius: 4px;
-  }
+  } */
 `
 
 // Paleta ,

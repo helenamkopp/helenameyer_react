@@ -14,15 +14,14 @@ export default ({ black }) => {
         </a>
       </ HeaderLogo>
       < HeaderLinks>
-        <a href="/">Sobre</a>
-        <a href="/">Portfólio</a>
-        <a className="linkedin" href="/">
-          <img src={Linkedin} alt="Linkedin" />
-        </a>
-        <a className="github" href="/">
-          <img src={Github} alt="Linkedin" />
-        </a>
-
+          <a href="/">Sobre</a>
+          <a href="/">Portfólio</a>
+          <a className="linkedin" href="/">
+            <img src={Linkedin} alt="Linkedin" />
+          </a>
+          <a className="github" href="/">
+            <img src={Github} alt="Linkedin" />
+          </a>
       </HeaderLinks>
     </ Header>
   )

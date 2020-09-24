@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import GlobalStyle from './styles/global';
 
-import Header from './components/Header'
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+// import Footer from './components/Footer';
 
 export default () => {
 
@@ -28,6 +30,9 @@ export default () => {
     <div>
       < GlobalStyle />
       < Header black={blackHeader} />
+      < MainContent />
+      {/* < Footer /> */}
+
     </div>
   );
 }
