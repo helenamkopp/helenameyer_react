@@ -5,22 +5,23 @@ import Github from '../../assets/github.svg';
 
 
 
-export default ({ black }) => {
+export default () => {
   return (
-    < Header className={black ? 'black' : ''}>
+    < Header >
       < HeaderLogo>
         <a href="/">
           <h1>Helena Meyer</h1>
         </a>
       </ HeaderLogo>
       < HeaderLinks>
-          <a href="/">Sobre</a>
-          <a href="/">Portfólio</a>
+          <a className="about" href="/">Sobre</a>
+          <a className="portfolio" href="/">Portfólio</a>
+          <a className="artigos" href="/">Artigos</a>
           <a className="linkedin" href="/">
-            <img src={Linkedin} alt="Linkedin" />
+            <img src={Linkedin} alt="Linkedin"/>
           </a>
-          <a className="github" href="/">
-            <img src={Github} alt="Linkedin" />
+          <a className="github" href="/"> 
+            <img src={Github} alt="Github"/>
           </a>
       </HeaderLinks>
     </ Header>

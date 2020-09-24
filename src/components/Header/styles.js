@@ -2,72 +2,63 @@ import styled from 'styled-components';
 
 
 export const Header = styled.div`
-  /* position: fixed;
-  z-index: 999;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+  width: 100%;
+  height: 70px;
+  z-index: 999; 
   top: 0;
   left: 0;
-  right: 0;
-  height: 70px;
+  right: 0; 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
-  background: transparent;
-  transition: all ease 0.3s;
-
-  .black {
-    background-color: #141414; */
-  }
-`;
-
+  padding: 0 30px;
+  background: #e57964;
+ 
+`
 export const HeaderLogo = styled.div`
-  /* text-transform: uppercase;
   font-size: 18px;
-  
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+
   a {
-    text-decoration: none;
-    color: #333333;
+    color: black;
   }
+`
 
-  h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 35px;
-  } */
-`;
+export const HeaderLinks = styled.div `
 
-export const HeaderLinks = styled.div`
-  /* font-family: 'Montserrat', sans-serif;
+
+a{
+  padding: 4px;
+  margin-left: 10px;
   font-size: 25px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
 
-  a {
-    padding: 10px;
-    background-color: transparent;
-    border-radius: 2px;
-    text-decoration: none;
-    margin-left: 10px;
-    color: #333333;
-    transition: all ease 0.3s;
-  }
+a.linkedin {
+  margin-left: 90px;
+}
 
-  a:hover {
-    background-color: black;
-    color: #e8e8e8;
-  }
+a:hover {
+  background-color:#f0b2a6;
+  border-radius: 10px;
+}
 
-  a.linkedin,
-  a.github {
-    background-color: transparent;
-  }
+img {
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+  align-items: center;
+}
 
-  a.linkedin {
-    margin-left: 80px;
-  }
-
-  img {
-    height: 30px;
-    width: 30px;
-    border-radius: 4px;
-  } */
+a.linkedin:hover, 
+a.github:hover {
+  background-color: transparent;
+}
+ 
 `
 
 // Paleta ,
