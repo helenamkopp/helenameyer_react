@@ -3,6 +3,7 @@ import GlobalStyle from './styles/global';
 
 import Header from './components/Header';
 import MainContent from './components/MainContent';
+import LastProjects from './components/LastProjects';
 import Footer from './components/Footer';
 
 export default () => {
@@ -12,6 +13,7 @@ export default () => {
       < GlobalStyle />
         < Header />
         < MainContent />
+        < LastProjects />
         < Footer />
 
     </div>

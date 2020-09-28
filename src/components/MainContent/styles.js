@@ -3,9 +3,16 @@ import styled from 'styled-components';
 export const Main = styled.div`
 
   /* background-color: beige; */
-  height: 700px;
+  height: 450px;
   margin-left: 60px;
   margin-top: 60px;
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
 
 .main--content {
   font-family: 'Quicksand', sans-serif;
@@ -46,6 +53,11 @@ export const Main = styled.div`
 
 .portfolio--content a {
   color: black;
+}
+
+.invite--projects p  {
+  margin-top: 15px;
+  font-size: 20px;
 }
 
 
